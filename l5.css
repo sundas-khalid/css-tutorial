@@ -1,0 +1,38 @@
+div{
+
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px  solid  black;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    /* style  for  transition*/
+   transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(5);
+    transition-delay: 1s;
+    /* transition-property:all  2s  1s*/;
+    /*style  for  transform*/
+    transform: rotate(360deg);
+    transform: scale(2);/* it   can be used in hover , move karay ga div ko x ya  y  ki direction ma*/
+
+}
+
+div:hover{
+
+    background-color: blue;
+    color: white;
+    font-size: large;
+    transform: translate(200px); /* move karay ga div ko x ya  y  ki direction ma */
+    transform: skew(45deg); /* div  ko  mor  tor  karay  ga */
+}
+
+div:active{
+
+    background-color: pink;
+}
+h1{
+
+    text-align: center;
+}

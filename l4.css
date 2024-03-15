@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+}
+
+div{
+    height: 100px;
+    width: 500px;
+    display: inline-block;
+    border: 3px solid black;
+    
+}
+
+#container
+{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#div1{
+    background-color: aqua;
+}
+
+#div2 {
+    background-color: pink;
+}
+
+#div3 {
+    background-color: blue;
+}
+#div4{
+    background-color: blueviolet;
+}
+#div5{
+    background-color: brown;
+}

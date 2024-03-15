@@ -1,0 +1,35 @@
+div{
+
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border: 2px  solid  black;
+    position: absolute;
+    color: white;
+    top: 100px;
+    left: 100px;
+    animation-name: coloranimation;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    /*animation: coloranimation 2s ease-in 0s infinite normal ;*/
+
+}
+@keyframes  coloranimation{
+
+    0%{
+         left: 0px;
+         background-color: chartreuse;
+        
+        }
+  50%{
+    background-color: darkgoldenrod;
+  }
+     100%{ 
+        right: 200px;
+        background-color: darkblue;
+        color: coral;
+    }
+}

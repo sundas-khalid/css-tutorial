@@ -1,0 +1,41 @@
+ul{
+
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    background-color: aqua;
+}
+
+li{
+
+    list-style-type: none;
+    display: inline;
+}
+h1{
+    text-align: center;
+    color: purple;
+}
+
+.outer{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: black;
+   /*background-image: url(0495c71d-5601-4153-ad57-c1ce5ea52013.jpg);
+    background-size: cover;*/
+}
+
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color:aqua;
+    /*background-image: url(IMG-20240204-WA0028.jpg);
+    background-size: cover;*/
+}
