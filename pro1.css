@@ -1,5 +1,4 @@
 *{
-
     margin: 0px;
     font-family: Arial;
     border: border-box ;/* jitni bi  padding or margin  ksi element ko milay wo us ki height or  width ma  count ho   */
@@ -18,19 +17,17 @@
 /*box1 */
 
 .nav-logo{
-     
-    height:30% ;
-    width: 30% ;
+
+    height:50px ;
+    width: 100px;
 }
 
 .logo{
-
     background-image: url('project pic/Amazon-Logo-Font-1-scaled.webp');
     background-size: cover;
     height: 50px;
     width: 100%;
 }
-
 .border{
 
     border: 2px solid  transparent;
