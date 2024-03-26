@@ -18,14 +18,14 @@
 /*box1 */
 
 .nav-logo{
-
-    height: 50px;
-    width: 100px;
+     
+    height:30% ;
+    width: 30% ;
 }
 
 .logo{
 
-    background-image: url(Amazon-Logo-Font-1-scaled.webp);
+    background-image: url('project pic/Amazon-Logo-Font-1-scaled.webp');
     background-size: cover;
     height: 50px;
     width: 100%;
@@ -163,7 +163,7 @@
 
   .hero-section{
 
-    background-image: url(herosection.jpg.jpg);
+    background-image: url('project pic/herosection.jpg.jpg');
     background-size: cover;
       height: 350px; 
       display: flex;
@@ -268,7 +268,7 @@ footer{
  }
 
  .logo {
-    background-image: url(Amazon-Logo-Font-1-scaled.webp);
+    background-image: url('project pic/Amazon-Logo-Font-1-scaled.webp');
     background-size: cover;
     height: 50px;
     width: 100px;
